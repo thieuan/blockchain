@@ -1,0 +1,21 @@
+Part -1 : Set Ethereum on you local machine ( Windows , Linux , Mac , AWS)
+Part -2 : Write a small smart contract , compile and deploy it on local machine ( Solidity , truffle , go Ethereum)
+Part -3 : Set private network for block chain and deploy contract on private net
+Part -4 : Use case 1 — UI based application ( dapps) 
+Part -5 : Use case 2 — Practical use case.
+
+Links -
+
+Bottoms Up — Ethereum Set up – Arun Singh – Medium
+https://medium.com/@arun.s/bottoms-up-ethereum-set-up-4ecec5a38f5e
+
+Coding : Smart contract – Arun Singh – Medium
+https://medium.com/@arun.s/coding-smart-contract-a304cb8a298
+
+Block chain : Create Private network – Arun Singh – Medium
+https://medium.com/@arun.s/block-chain-create-private-network-1f46806aa50d
+
+Block Chain : Use case application – Arun Singh – Medium
+https://medium.com/@arun.s/block-chain-use-case-application-e997c20c0114
+
+Solidity: https://blockgeeks.com/guides/solidity/
