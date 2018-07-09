@@ -78,3 +78,46 @@ Some of the languages which are essential for the development of a Blockchain so
 <li> R3 Corda
     </ul>
 </ul>
+
+# Common terms
+<ul>
+<li>Consensus mechanism - Consensus
+<li>Byzantine General Problem - Byzantine Generals Problem
+<li>Byzantine Fault Tolerance - Byzantine Fault-Tolerant, BFT
+<li>Nash Equilibrium -
+<li>Double Flower Attack / Double Payment Attack - Double-Spend Attack
+<li>SPV - Simple Payment Verification
+<li>POW - proof of workload, Proof-Of-Work, mine
+<li>POS - proof of equity, Proof-of-Stake, casting (mint)
+<li>NXT - Forge
+<li>DPOS - Equity Proof, Delegated Proof-Of-Stake
+<li>PBFT - Hyperledger Fabric
+<li>DBFT - small ants
+<li>PAXOS - Traditional Distributed Consensus Algorithm
+<li>RAFT - Traditional Distributed Consensus Algorithm
+<li>DMMS - Dynamic Membership Multiparty Signatures
+<li>SHA256 - bitcoin
+<li>SCRYPT - litecoin
+<li>HEFTY1
+<li>ETHASH - ethereum
+<li>EQUIHASH - zcash
+<li>Merkle Tree - Merkel Tree
+<li>Merkle Root
+<li>Merkle Patricia Tree - Merkel Patricia Tree
+<li>Getwork
+<li>Getblocktemplate
+<li>Stratum
+<li>Auxiliary Proof-of-Work - AuxPOW
+<li>Auxiliary Blockchain
+</ul>
+
+# Version - History
+<ul>
+  <li>Blockchain v1.0 - Bitcoin, Dash, Monero
+  <li>Blockchain v1.X - Decentralized storage: IPFS, FileCoin, BigchainDB
+  <li>Blockchain v1.X - Second Generation Coin (Ripple, NXT, Bitshare)
+  <li>Blockchain v1.X - Dapps (Steem, yoyo)
+  <li>Blockchain v2.0 - Ethereum, EOS, NEO, QTUM
+  <li>Blockchain DAG - IOTA
+
+</ul>
