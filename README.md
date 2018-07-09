@@ -35,3 +35,46 @@ Hyperledger:
 · as well as knowledge of NodeJS
 
 Some of the languages which are essential for the development of a Blockchain solution are: C++ (the most famous cryptocurrency Bitcoin has been developed using C++), JavaScript, Solidity, Python, Distributed storage (it is important to have a good understanding of the distributed storage like RDBMS, NoSQL etc. as the distributed storage is an intrinsic feature of Blockchain).
+
+# Concept
+
+<b>Decentralization :</b> No one entity should own all the assets or resources in the network. It is important to understand how this is different compared to a distributed network. A distributed network can still be owned by one entity, for instance Netflix. A distributed network is essential for a decentralized network, but it is not necessarily decentralized in it’s own right.
+
+<b>Immutability :</b> The data once written, should always be a part of the network. Any change performed over the data must also be recorded in the network. This can be achieved by creating hash of each transaction/operation performed in the network and add it to the next transaction as a meta data. This chains every new transaction to it’s previous transaction and that is where Blockchain derives it’s name from.
+
+<b>Assets/Entities :</b> The storage network should support storage of data or some form of transferable asset in some form or the other. This can be Bitcoins for Bitcoin network, or Ether[2] or Smart contracts or other forms of data in Ethereum [3]network or Assets in case of BigchainDB[4]. (All these are different kinds of prevalent Blockchain networks or frameworks and I will talk about them in some detail later)
+
+<b>Censor resistance :</b> Although this point is inherent to Decentralization, some Blockchain enthusiasts make a point of mentioning it separately. Basically any single authority should not be able to Censor the flow of data or exchange of information over a Blockchain. But with the advent of private Blockchain technologies, Censor resistance is not a compulsory component of a Blockchain.
+
+<b>(DLT) Distributed Ledger Technology :</b> What is distributed ledger technology and how it is being implemented in different blockchains. It means that the data is not present at a central place and is available with nodes which are participating in the consensus.
+
+<b>Consensus:</b> There are different types of consensus which are implemented in different blockchain.
+<ul>
+<li>PoofOfWork
+<li>ProofOfStake
+<li>ProofOfElaspedTime
+<li>GossipingAboutGossip
+</ul>
+
+<b>Smart Contracts:</b> Smart contracts are the business logic that gets triggered based on a event and there is no manual invention. Smart contracts are written in solidity for many platforms like Ethereum, Hedera HashGraph. Some platforms Like Ethereum understand Smart contracts in form of Transaction Processors or Chain code.
+
+<b>dApps:</b> Distributed Application are in the ecosystem for long for eg. Torrent or peer to peer apps. Recently dApps are gaining traction because of the Blockchain technology.
+
+<b>Sharding:</b> Not all the nodes available in the chain needs to be part of the consensus and retains the data corresponding to your application. The blockchain is divided into different groups to cater different categories of application and it's data.
+
+<b> 2 categories blockchain </b>
+<ul>
+  <li><b>Public Blockchains</b>
+    <ul>
+      <li> Bitcoin
+      <li> Ethereum
+      <li>Hedera Hashgraph
+      <li>Lightning Networks
+    </ul>
+  <li><b>Private Blockchains</b>
+<ul>
+<li> Hyperledger Fabric
+<li> Hyperledger Sawtooth
+<li> R3 Corda
+    </ul>
+</ul>
