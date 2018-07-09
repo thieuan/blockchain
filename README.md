@@ -1,11 +1,14 @@
 # blockchain
 <br>3 disciplines that worked for me in two separate fields: Knowledge, Projects, Networking
 
-<br><b>1. Knowledge:</b> If you want to become an website application developer, you have to learn HTML, CSS and Javascript. If you want to be a graphic designer, you have to learn Photoshop and good design principles. Every field has it’s prerequisite understandings, and Blockchain is no different.
+## 1. Knowledge: ## 
+If you want to become an website application developer, you have to learn HTML, CSS and Javascript. If you want to be a graphic designer, you have to learn Photoshop and good design principles. Every field has it’s prerequisite understandings, and Blockchain is no different.
 - To start in blockchain, you’ll want to learn the basics of how a blockchain works. I would highly recommend Mastering Bitcoin by Andreas Antonopoulos. After you get comfortable with the examples in that book and understand blockchain, you’ll want to spend some time learning Solidity and a framework like Truffle.
-<br><b>2. Projects:</b> After a firm understanding of the basics of your industry, you have to find meaningful opportunities to start applying our knowledge through projects. Projects will help solidify your knowledge, giving you experience that you can use to create things that matter.
+## 2. Projects: ## 
+After a firm understanding of the basics of your industry, you have to find meaningful opportunities to start applying our knowledge through projects. Projects will help solidify your knowledge, giving you experience that you can use to create things that matter.
 - There are a lot of open source projects and ideas for blockchain technology available. You can start by creating the basic contracts available through the Truffle tutorials and then start expanding on your ideas from there. If you create something (even something small), post it through Github… you’ll be needing it soon.
-<br><b>3. Networking:</b> With these first two disciplines, you’re on your way, but it’s still not enough to get you a position in the field. For that, you have to go out and meet people in the field through networking. Creating an interesting blockchain application for your friends is great, but showing it to someone who works for a company that’s actively hiring blockchain developers will lead to opportunities and recognition.
+## <b>3. Networking:</b> 
+With these first two disciplines, you’re on your way, but it’s still not enough to get you a position in the field. For that, you have to go out and meet people in the field through networking. Creating an interesting blockchain application for your friends is great, but showing it to someone who works for a company that’s actively hiring blockchain developers will lead to opportunities and recognition.
 I love networking in person through meetup and eventbrite, but blockchain actually does a fair amount of connecting through mediums like Reddit, Slack and Gitter. If you want to start meeting people actively involved in this field, get comfortable with commenting on posts and messaging them with thoughtful inquiries. The more active and thoughtful you are in these interactions, the more people you’ll get the meet. And then, when you create projects, show them to people you think might find them useful.
 </p>
 
