@@ -1,4 +1,4 @@
-# blockchain
+# Blockchain
 <br>3 disciplines that worked for me in two separate fields: Knowledge, Projects, Networking
 
 ## 1. Knowledge: ## 
