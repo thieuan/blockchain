@@ -3,6 +3,7 @@
 ## 1. Tool
 - Node JS: https://nodejs.org/en/
 - Truffle Framework: https://truffleframework.com/  (Requires NodeJS 5.0+)
+- Solidity: https://solidity.readthedocs.io/en/develop/
 - Python: https://www.python.org/downloads/
 - Git
 ## 2. Install Ethereum
