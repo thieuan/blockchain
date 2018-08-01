@@ -204,7 +204,7 @@ I will start geth with parameters:
 
 — ipcpath Filename for IPC socket/pipe within the datadir (explicit paths escape it)
 
-attach Geth Console: interactive JavaScript environment (connect to node)
+ attach Geth Console: interactive JavaScript environment (connect to node)
 
 It is important to attach at your previous datadir!
 
@@ -212,6 +212,12 @@ At windows, run another instance of Command Prompt or PowerShell with administra
 ```cmd
 geth --ipcpath geth.ipc --datadir "C:\ETH\data-private" attach
 ```
+**Note** sometime the cmd is not working on Window, please use (specific name of instance and connect)
+```cmd
+geth --datadir datadir1 --port 60303 --nodiscover --ipcpath geth-data1.ipc --networkid 13 console
+geth attach ipc:\\.\pipe\geth.ipc
+```
+
 To check if you are connect at the correct node, run this command at geth console:
 ```cmd
 > personal
