@@ -31,9 +31,9 @@ sudo apt-get update \
 sudo apt-get install ethereum \
 sudo apt-get update \
 sudo apt-get install cpp-ethereum
-## 3. Install Ethereum Wallet (Mist)
-- https://github.com/ethereum/mist/releases
-- Metamask???
+## 3. Install Ethereum Wallet
+- Mist: https://github.com/ethereum/mist/releases
+- Metamask: https://metamask.io/
 ## 4. Connect to test net and create new account
 4.1. Open mist wallet menu → develop → select test net \
 4.2. Menu → new account → provide pass phrase
