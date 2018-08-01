@@ -53,12 +53,12 @@ Remember my settings:
 
 - genesis.json is in “C:\ETH\configs\genesis.json”
 - datadir is “C:\ETH\data-private”
+
 At windows, run Command Prompt or PowerShell with administrator privileges: 
 Execute geth with the parameters — datadir and init:
 ```cmd
 geth --datadir "C:\ETH\data-private" init "C:\ETH\configs\genesis.json"
 ```
-Result: 
 ![alt text](https://cdn-images-1.medium.com/max/800/0*72sQ_rqtBcV1RGW8. "Result")
 
 **Resolving the warning:** execute geth to create account
@@ -88,7 +88,7 @@ More info: https://github.com/ethereumproject/go-ethereum/wiki/Command-Line-Opti
 
 — datadir Data directory for the databases and keystore. Choose a location that is separate from your public Ethereum chain folder.
 
-console Geth Console: interactive JavaScript environment
+ console Geth Console: interactive JavaScript environment
 
 You’ll see something like this:
 ![alt text](https://cdn-images-1.medium.com/max/800/0*L09WhAPu9X1ILUEh. "Result")
@@ -209,8 +209,9 @@ attach Geth Console: interactive JavaScript environment (connect to node)
 It is important to attach at your previous datadir!
 
 At windows, run another instance of Command Prompt or PowerShell with administrator privileges and run:
-
+```cmd
 geth --ipcpath geth.ipc --datadir "C:\ETH\data-private" attach
+```
 To check if you are connect at the correct node, run this command at geth console:
 ```cmd
 > personal
