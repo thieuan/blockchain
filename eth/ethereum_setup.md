@@ -12,10 +12,6 @@
 - https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac
 - https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu
 
-[Window]
-- Open cmd  
-- C:\Program Files\Geth>geth.exe
-
 [AWS]
 Ethereum AWS set up
 
