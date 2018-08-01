@@ -325,18 +325,18 @@ Go to Mist wallet → select an account (left panel) → click on contract → n
 ```solidity 
 pragma solidity ^0.4.4; 
 
-contract HelloWorld { \
+contract HelloWorld { 
  uint public balance; 
 
- function HelloWorld(){ \
+ function HelloWorld(){ 
   balance = 100; 
  }  
- function deposit(uint amt) { \
-  balance += amt; \
+ function deposit(uint amt) { 
+  balance += amt; 
  }  
  
- function getBalance() returns (uint){ \
-  return balance; \
+ function getBalance() returns (uint){ 
+  return balance; 
  }  
 } 
 ```
