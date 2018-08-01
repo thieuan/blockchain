@@ -61,17 +61,17 @@ pragma solidity ^0.4.4;
 contract HelloWorld { \
  uint public balance; 
 
-function HelloWorld(){ \
- balance = 100; 
- } 
+ function HelloWorld(){ \
+  balance = 100; 
+ }  
  function deposit(uint amt) { \
- balance += amt; \
- } 
+  balance += amt; \
+ }  
  
-function getBalance() returns (uint){ \
- return balance; \
- } 
- } 
+ function getBalance() returns (uint){ \
+  return balance; \
+ }  
+} 
 
 Note — Please note your Ethereum should be working on local machine with test net. Start mining before deploys the code. (From mist wallet → develop → start mining) 
 
