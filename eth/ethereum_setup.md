@@ -6,6 +6,7 @@
 - Solidity: https://solidity.readthedocs.io/en/develop/
 - Python: https://www.python.org/downloads/
 - Git
+
 ## 2. Install Ethereum
 - https://github.com/ethereum/go-ethereum/wiki/Installation-instructions-for-Windows
 - https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac
@@ -31,13 +32,16 @@ sudo apt-get update \
 sudo apt-get install ethereum \
 sudo apt-get update \
 sudo apt-get install cpp-ethereum
+
 ## 3. Install Ethereum Wallet
 - Mist: https://github.com/ethereum/mist/releases
 - Metamask: https://metamask.io/
+
 ## 4. Connect to test net and create new account
 4.1. Open mist wallet menu → develop → select test net \
 4.2. Menu → new account → provide pass phrase
-## 5. Test Ethers
+
+## 5. Create Private Ethereum network
 
 ### Things to define before start
 - Custom Genesis File
@@ -48,19 +52,70 @@ sudo apt-get install cpp-ethereum
 ### Create genesis block
 https://github.com/thieuan/blockchain/blob/master/eth/genesis.json
 
+### Init GETH to create the genesis block
+Remember my settings:
 
-5.1. Create a Json file (CustomGenesis.json) \
-{ \
- “nonce”: “0x0000000000000042”, “timestamp”: “0x0”, \
- “parentHash”: “0x0000000000000000000000000000000000000000000000000000000000000000”, \
- “extraData”: “0x0”, “gasLimit”: “0x8000000”, “difficulty”: “0x400”, \
- “mixhash”: “0x0000000000000000000000000000000000000000000000000000000000000000”, \
- “coinbase”: “0x3333333333333333333333333333333333333333”, \
- “alloc”: { “YOUR_PUBLIC_ADDRESS” : 2000000 } \
-}
+- genesis.json is in “C:\ETH\configs\genesis.json”
+- datadir is “C:\ETH\data-private”
+At windows, run Command Prompt or PowerShell with administrator privileges: 
+Execute geth with the parameters — datadir and init:
+```cmd
+geth --datadir "C:\ETH\data-private" init "C:\ETH\configs\genesis.json"
+```
+Result: 
+![alt text](https://cdn-images-1.medium.com/max/800/0*72sQ_rqtBcV1RGW8. "Result")
 
-5.2. Initialize the geth with json file form terminal \
-geth init CustomGenesis.json
+**Resolving the warning:** execute geth to create account
+WARN [09–20|12:17:36] No etherbase set and no accounts found as default
+
+### Creating account at geth
+Let’s create the account that will be used for mining.
+Run geth with the following parameters:
+```cmd
+geth --networkid 13 --port 60303 --rpc --lightkdf --cache 16 --datadir "C:\ETH\data-private" console
+```
+More info: https://github.com/ethereumproject/go-ethereum/wiki/Command-Line-Options
+
+— networkid Network identifier (integer, 0=Olympic, 1=Homestead, 2=Morden) (default: 1). For a private network you define another number. I defined 13 for me
+
+— port This is the “network listening port”, which you will use to connect with other peers manually.
+
+— rpc Enable the HTTP-RPC server.
+
+— rpcaddr HTTP-RPC server listening interface (default: “localhost”).
+
+— rpcport HTTP-RPC server listening port (default: 8545).
+
+— lightkdf Reduce key-derivation RAM & CPU usage at some expense of KDF strength.
+
+— cache Megabytes of memory allocated to internal caching (min 16MB / database forced) (default: 128)
+
+— datadir Data directory for the databases and keystore. Choose a location that is separate from your public Ethereum chain folder.
+
+console Geth Console: interactive JavaScript environment
+
+You’ll see something like this:
+![alt text](https://cdn-images-1.medium.com/max/800/0*L09WhAPu9X1ILUEh. "Result")
+
+### Create new Account
+At geth console:
+```cmd
+>
+>personal.newAccount()
+Passphrase: *****
+Repeat passphrase: *****
+```
+Define your password and don’t forget it!
+
+
+### Check your account
+At geth console:
+```cmd
+>
+>personal
+```
+### Check the listAccounts:
+Executing personal at geth console. In this case, the account is: 0x842d06ee2f7c45b3c1080bdb75757f269335bc9c
 
 ## 6. Smart Contract — Deploy
 A smart contract is a computerized transaction protocol that executes the terms of a contract. \
