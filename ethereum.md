@@ -13,6 +13,23 @@
 [Window]
 - Open cmd  
 - C:\Program Files\Geth>geth.exe
+
+[AWS]
+Ethereum AWS set up
+
+1. Install Nodejs \
+sudo apt-get install node-legacy \
+sudo apt-get install npm \
+
+2. Install Ethereum \
+sudo apt-get install software-properties-common \
+sudo add-apt-repository -y ppa:ethereum/ethereum-qt \
+sudo add-apt-repository -y ppa:ethereum/ethereum \
+sudo add-apt-repository -y ppa:ethereum/ethereum-dev \
+sudo apt-get update \
+sudo apt-get install ethereum \
+sudo apt-get update \
+sudo apt-get install cpp-ethereum
 ## 3. Install Ethereum Wallet (Mist)
 - https://github.com/ethereum/mist/releases
 - Metamask???
