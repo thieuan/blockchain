@@ -38,6 +38,17 @@ sudo apt-get install cpp-ethereum
 4.1. Open mist wallet menu → develop → select test net \
 4.2. Menu → new account → provide pass phrase
 ## 5. Test Ethers
+
+### Things to define before start
+- Custom Genesis File
+- Custom Data Directory (for me: “C:\ETH\”)
+- Custom NetworkID (for me: 13)
+- (Recommended) Disable Node Discovery
+
+### Create genesis block
+https://github.com/thieuan/blockchain/blob/master/eth/genesis.json
+
+
 5.1. Create a Json file (CustomGenesis.json) \
 { \
  “nonce”: “0x0000000000000042”, “timestamp”: “0x0”, \
