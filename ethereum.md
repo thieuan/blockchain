@@ -28,7 +28,7 @@
 5.2. Initialize the geth with json file form terminal \
 geth init CustomGenesis.json
 
-# 6. Smart Contract — Deploy
+## 6. Smart Contract — Deploy
 A smart contract is a computerized transaction protocol that executes the terms of a contract. \
 Let’s try to deploy a smart contract. \
 Go to Mist wallet → select an account (left panel) → click on contract → new contract → in text area copy and paste below code. → select contract name as Hello world → click on deploy 
