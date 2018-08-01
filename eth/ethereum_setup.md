@@ -322,6 +322,7 @@ A smart contract is a computerized transaction protocol that executes the terms 
 Let’s try to deploy a smart contract. \
 Go to Mist wallet → select an account (left panel) → click on contract → new contract → in text area copy and paste below code. → select contract name as Hello world → click on deploy 
 
+```solidity 
 pragma solidity ^0.4.4; 
 
 contract HelloWorld { \
@@ -338,6 +339,7 @@ contract HelloWorld { \
   return balance; \
  }  
 } 
+```
 
 Note — Please note your Ethereum should be working on local machine with test net. Start mining before deploys the code. (From mist wallet → develop → start mining) 
 
