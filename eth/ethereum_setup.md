@@ -114,8 +114,53 @@ At geth console:
 >
 >personal
 ```
-### Check the listAccounts:
-Executing personal at geth console. In this case, the account is: 0x842d06ee2f7c45b3c1080bdb75757f269335bc9c
+Check the listAccounts: In this case, the account is: 0x842d06ee2f7c45b3c1080bdb75757f269335bc9c
+
+### Configure enode
+Enode’s configuration will be used when other computers connect to the private network.
+
+An enode is a way to describe an Ethereum node in the form of a URI, separated from the host by an @ sign.
+
+The hexadecimal node ID is encoded in the username portion of the URL. The username portion is a 512-bit public key that is used to verify communication came from a particular node on the network.
+
+The hostname can only be given as an IP address, DNS domain names are not allowed. The port in the host name section is the TCP listening port. If the TCP and UDP (discovery) ports differ, the UDP port is specified as query parameter “discport”.
+
+At geth console, run this command and verify the node information:
+
+```cmd
+>admin.nodeInfo.enode
+```
+This is the enode:
+```cmd
+"enode://ba4a9b4e8fb7a46776ad1f3ace7cb63fab5c50b185516b01515de12b2d7adacc525e69c133b01611e1a7009a18121c5e0b7f9950c3b70f9124a1a784469e96e6@0.0.0.0:60303"
+```
+### IP and port for enode
+Pay attention at port at enode’s end.
+
+This is the port defined when execute geth:
+```cmd
+geth — networkid 13 — port 60303 — rpc — lightkdf — cache 16 — datadir “C:\ETH\data-private” console
+```
+So, I´m using port 60303.
+
+Now check your computer’s IP. My IP is 192.168.1.114 
+
+Copy this information at enode:
+
+- IP: change 0.0.0.0 to 192.168.1.114
+- Port: 60303
+This is the enode with changes:
+
+```cmd
+"enode://ba4a9b4e8fb7a46776ad1f3ace7cb63fab5c50b185516b01515de12b2d7adacc525e69c133b01611e1a7009a18121c5e0b7f9950c3b70f9124a1a784469e96e6@192.168.1.114:60303"
+```
+Keep this information to use at second node.
+
+I finished the configurations at principal node.
+
+Now exit console to run it again with parameters to mine
+
+>exit
 
 ## 6. Smart Contract — Deploy
 A smart contract is a computerized transaction protocol that executes the terms of a contract. \
