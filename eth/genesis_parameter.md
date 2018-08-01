@@ -1,6 +1,26 @@
 # Parameters at genesis.json
 Extract from: https://ethereum.stackexchange.com/questions/2376/what-does-each-genesis-json-parameter-mean
 
+```json
+{
+	"nonce"			: "0x0000000000000055",
+	"mixHash"		: "0x0000000000000000000000000000000000000000000000000000000000000000",
+	"parentHash"	: "0x0000000000000000000000000000000000000000000000000000000000000000",
+	"difficulty"	: "0x20000",
+	"gasLimit"	: "0x800000",
+	"timestamp"	: "0x0",
+	"extraData"	: "",
+	"coinbase"	: "0x0000000000000000000000000000000000000000",
+	"alloc" 		: {},
+	"config" 	: {
+		"chainId": 100,
+		"homesteadBlock": 0,
+		"eip155Block": 0,
+		"eip158Block": 0
+	}
+}
+```
+
 ### mixhash 
 A 256-bit hash which proves, combined with the nonce, that a sufficient amount of computation has been carried out on this block: the Proof-of-Work (PoW). The combination of nonce and mixhash must satisfy a mathematical condition described in the Yellowpaper, 4.3.4. Block Header Validity, (44). It allows to verify that the Block has really been cryptographically mined, thus, from this aspect, is valid.
 
