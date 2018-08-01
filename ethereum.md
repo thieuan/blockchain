@@ -2,12 +2,17 @@
 
 ## 1. Tool
 - Node JS: https://nodejs.org/en/
-- Python (> 2.6 < 3.0): 
+- Truffle Framework: https://truffleframework.com/  (Requires NodeJS 5.0+)
+- Python: https://www.python.org/downloads/
 - Git
 ## 2. Install Ethereum
 - https://github.com/ethereum/go-ethereum/wiki/Installation-instructions-for-Windows
 - https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac
 - https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu
+
+[Window]
+- Open cmd  
+- C:\Program Files\Geth>geth.exe
 ## 3. Install Ethereum Wallet (Mist)
 - https://github.com/ethereum/mist/releases
 - Metamask???
