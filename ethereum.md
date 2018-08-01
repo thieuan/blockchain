@@ -52,5 +52,5 @@ function getBalance() returns (uint){ \
 
 Note — Please note your Ethereum should be working on local machine with test net. Start mining before deploys the code. (From mist wallet → develop → start mining) 
 
-7. Execute smart Contract \
+## 7. Execute smart Contract
 After successful deploy click on contact. Select a method to execute. Select deposit the amount to account. You will see there is a new transaction created for this and check balance. \
