@@ -3,6 +3,8 @@
 ## 1. Tool
 - Node JS: https://nodejs.org/en/
 - Truffle Framework: https://truffleframework.com/  (Requires NodeJS 5.0+)
+- OpenZeppelin: https://openzeppelin.org/ (Build Secure Smart Contracts in Solidity)
+- Infura: https://infura.io (public to testnet without local)
 - Solidity: https://solidity.readthedocs.io/en/develop/
 - Python: https://www.python.org/downloads/
 - Git
