@@ -25,13 +25,19 @@ An optional free, but max. 32-byte long space to conserve smart things for ether
 ### coinbase 
 The 160-bit address to which all rewards (in Ether) collected from the successful mining of this block have been transferred. They are a sum of the mining reward itself and the Contract transaction execution refunds. Often named “beneficiary” in the specifications, sometimes “etherbase” in the online documentation. This can be anything in the Genesis Block since the value is set by the setting of the Miner when a new Block is created.
 
-##### Note: It is no problem if you don’t have the address now because you can define the address when you start geth to mine.
+**Note:** It is no problem if you don’t have the address now because you can define the address when you start geth to mine.
 
-alloc Allows defining a list of pre-filled wallets. That’s an Ethereum specific functionality to handle the “Ether pre-sale” period. Since we can mine local Ether quickly, we don’t use this option.
+### alloc 
+Allows defining a list of pre-filled wallets. That’s an Ethereum specific functionality to handle the “Ether pre-sale” period. Since we can mine local Ether quickly, we don’t use this option.
 
-config Configuration to describe the chain itself. Specifically the chain ID, the consensus engines to use, as well as the block numbers of any relevant hard forks.
+### config 
+Configuration to describe the chain itself. Specifically the chain ID, the consensus engines to use, as well as the block numbers of any relevant hard forks.
 
-Chainid — identifies the current chain and is used for replay protection. This is a unique value for your private chain.
-homesteadBlock — your chain won’t be undergoing the switch to Homestead, so leave this as 0.
-eip155Block — your chain won’t be hard-forking for these changes, so leave as 0.
-eip158Block — your chain won’t be hard-forking for these changes, so leave as 0.
+### Chainid 
+Identifies the current chain and is used for replay protection. This is a unique value for your private chain.
+### homesteadBlock 
+Your chain won’t be undergoing the switch to Homestead, so leave this as 0.
+### eip155Block 
+Your chain won’t be hard-forking for these changes, so leave as 0.
+### eip158Block 
+Your chain won’t be hard-forking for these changes, so leave as 0.
