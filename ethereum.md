@@ -3,7 +3,7 @@
 ## 1. Tool
 - Node JS: https://nodejs.org/en/
 - Python (> 2.6 < 3.0): 
-- Git:
+- Git
 ## 2. Install Ethereum
 - https://github.com/ethereum/go-ethereum/wiki/Installation-instructions-for-Windows
 - https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac
