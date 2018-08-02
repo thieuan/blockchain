@@ -1,16 +1,6 @@
 # Evironment Setup
 
-## 1. Tool
-- Node JS: https://nodejs.org/en/
-- Truffle Framework: https://truffleframework.com/  (Requires NodeJS 5.0+)
-- OpenZeppelin: https://openzeppelin.org/ (Build Secure Smart Contracts in Solidity)
-- Infura: https://infura.io (public to testnet without local)
-- Solidity: https://solidity.readthedocs.io/en/develop/
-- Code Editor for Solidity: https://code.visualstudio.com/docs/?dv=win
-- Python: https://www.python.org/downloads/
-- Git
-
-## 2. Install Ethereum
+## 1. Install Ethereum
 - https://github.com/ethereum/go-ethereum/wiki/Installation-instructions-for-Windows
 - https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac
 - https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu
@@ -32,15 +22,15 @@ sudo apt-get install ethereum \
 sudo apt-get update \
 sudo apt-get install cpp-ethereum
 
-## 3. Install Ethereum Wallet
+## 2. Install Ethereum Wallet
 - Mist: https://github.com/ethereum/mist/releases
 - Metamask: https://metamask.io/
 
-## 4. Connect to test net and create new account
+## 3. Connect to test net and create new account
 4.1. Open mist wallet menu → develop → select test net \
 4.2. Menu → new account → provide pass phrase
 
-## 5. Create Private Ethereum network
+## 4. Create Private Ethereum network
 
 ### Things to define before start
 - Custom Genesis File
@@ -320,7 +310,7 @@ Show all nodes at the network.
 
 You can see that in the first node we have nodeLUA connected and in the second node we have nodeSOL connected.
 
-## 6. Smart Contract — Deploy
+## 5. Smart Contract — Deploy
 A smart contract is a computerized transaction protocol that executes the terms of a contract. \
 Let’s try to deploy a smart contract. \
 Go to Mist wallet → select an account (left panel) → click on contract → new contract → in text area copy and paste below code. → select contract name as Hello world → click on deploy 
@@ -346,5 +336,5 @@ contract HelloWorld {
 
 Note — Please note your Ethereum should be working on local machine with test net. Start mining before deploys the code. (From mist wallet → develop → start mining) 
 
-## 7. Execute smart Contract
+## 6. Execute smart Contract
 After successful deploy click on contact. Select a method to execute. Select deposit the amount to account. You will see there is a new transaction created for this and check balance. \
