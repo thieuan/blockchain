@@ -52,6 +52,24 @@ The default Truffle directory structure contains the following:
 
 ### 4. Writing smart contract
 
+I used ERC20 StandardToken and Ownable from OpenZeppelin because they are very complete, realiable and recognized.
+In project directory:
+```cmd
+npm init -y
+npm install -E zeppelin-solidity
+```
+using StandardToken and Ownable
+```sol
+pragma solidity 0.4.24;
+
+import 'zeppelin-solidity/contracts/token/ERC20/StandardToken.sol';
+import 'zeppelin-solidity/contracts/ownership/Ownable.sol';
+
+contract AnToken is StandardToken, Ownable {
+}
+```
+
+
 ### 5. Compilaing and migrating the smart contract
 
 #### Compilation
