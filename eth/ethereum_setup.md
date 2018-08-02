@@ -6,6 +6,7 @@
 - OpenZeppelin: https://openzeppelin.org/ (Build Secure Smart Contracts in Solidity)
 - Infura: https://infura.io (public to testnet without local)
 - Solidity: https://solidity.readthedocs.io/en/develop/
+- Code Editor for Solidity: https://code.visualstudio.com/docs/?dv=win
 - Python: https://www.python.org/downloads/
 - Git
 
