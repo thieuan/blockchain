@@ -88,7 +88,24 @@ module.exports = function(deployer) {
 ```
 3. Before we can migrate our contract to the blockchain, we need to have a blockchain running. We can use [Ganache](https://truffleframework.com/ganache)
 
- Launching the application. This will generate a blockchain running locally on port 7545
+It is available as both a desktop application as well as a command-line tool (formerly known as the TestRPC). Ganache is available for Windows, Mac, and Linux.
+
+Launching the application. This will generate a blockchain running locally on port 7545
+
+Remember to check *truffle.js* file to make network configuration same as setting of Ganache as below example
+```js
+module.exports = {
+  // See <http://truffleframework.com/docs/advanced/configuration>
+  // for more about customizing your Truffle configuration!
+  networks: {
+    development: {
+      host: "127.0.0.1",
+      port: 7545,
+      network_id: "*" // Match any network id
+    }
+  }
+};
+```
 
 4. Back in our terminal, migrate the contract to the blockchain.
 ```cmd
