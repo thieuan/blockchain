@@ -86,6 +86,7 @@ npm init -y
 npm install -E zeppelin-solidity
 
 truffle compile
+truffle test
 ```
 
 
