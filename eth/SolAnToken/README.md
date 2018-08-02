@@ -55,7 +55,7 @@ If you are using Linux / Mac, use truffle.js
 * Put at file:
 ```
 let mnemonic = "";    //For your wallet
-let token = "";     //To use infura
+let api_key = "";     //To use infura
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
 
@@ -77,8 +77,12 @@ module.exports = {
 ```
 
 mnemonic for your wallet. Use the same mnemonic from ganache, to use local publish.
-token to use infura, to publish at testnet.
-If you don't have a Infura token, you can get it [here](https://infura.io/register)
+If you don't have a Infura api_key, you can get it [here](https://infura.io/register)
+
+HDWalletProvider
+```cmd
+npm install truffle-hdwallet-provider
+```
 
 ### Compiling project
 ```cmd
