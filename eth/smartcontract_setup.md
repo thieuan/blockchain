@@ -35,7 +35,7 @@ cd smartcontract-sample
 truffle init
 ```
 >**Note:** You can use the *truffle unbox <box-name>* command to download any of the other Truffle Boxes. \
-If you have any problem related to proxy (certificate),Go to this url: https://github.com/trufflesuite/truffle-init-default
+If you have any problem related to proxy (certificate),Go to this url: [init-default](https://github.com/trufflesuite/truffle-init-default), or [init-bare](https://github.com/trufflesuite/truffle-init-bare)
 And just download it in the format of you choice.
 
 ***Directory structure***  
