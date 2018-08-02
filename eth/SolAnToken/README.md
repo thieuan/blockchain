@@ -80,6 +80,13 @@ mnemonic for your wallet. Use the same mnemonic from ganache, to use local publi
 token to use infura, to publish at testnet.
 If you don't have a Infura token, you can get it [here](https://infura.io/register)
 
+### Compiling project
+```cmd
+npm init -y
+npm install -E zeppelin-solidity
+
+truffle compile
+```
 
 
 
