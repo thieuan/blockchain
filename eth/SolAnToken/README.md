@@ -84,13 +84,14 @@ HDWalletProvider
 npm install truffle-hdwallet-provider
 ```
 
-### Compiling project
+## Compiling project
 ```cmd
 npm init -y
 npm install -E zeppelin-solidity
 
 truffle compile
 truffle test
+truffle migrate --reset
 ```
 
 
