@@ -81,29 +81,6 @@ token to use infura, to publish at testnet.
 If you don't have a Infura token, you can get it [here](https://infura.io/register)
 
 
-## Running
-At command prompt, run
-```
-truffle develop
-```
-
-At truffle console, run
-```
-compile
-migrate
-```
-
-You can check the tests, at truffle console:
-```
-test
-```
-
-## Using with SolWallet
-
-At SolWallet/src/EthereumSetup.js
-Change contractAddress to address of your contract after migrate.
-
-
 
 
 
