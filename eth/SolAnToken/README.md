@@ -1,4 +1,4 @@
-# SolBBToken
+# SolAnToken
 This is the token for studying Ethereum, [Practice 1](https://github.com/thieuan/blockchain/blob/master/eth/practice/coding_challenge_1.md)
 
 AnToken was published at Ropsten testnet, [here](https://ropsten.etherscan.io/address/0x3730aa313345f4b00e478a5010c2d3b921555520).
