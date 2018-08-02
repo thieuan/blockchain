@@ -1,4 +1,4 @@
-let mnemonic = "";    //For your wallet
+let mnemonic = "";    //For your wallet (https://iancoleman.io/bip39/)
 let api_key = "";     //To use infura
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
