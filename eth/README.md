@@ -9,5 +9,7 @@ Record everything when I study Ethereum
 ### Useful link ###
 
 https://medium.com/dapps-decentralized-apps-development
+
 https://medium.freecodecamp.org/developing-an-ethereum-decentralized-voting-application-a99de24992d9
+
 https://medium.com/dapps-decentralized-apps-development/building-a-production-ready-ethereum-dapp-from-idea-to-final-product-the-smart-contract-pt-1-718d58f95873
